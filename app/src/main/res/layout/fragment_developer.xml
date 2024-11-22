@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="234dp"
+            android:layout_height="252dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dima"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:text="Дима Морозов"
+            android:textSize="34dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="50dp"
+                    android:text="Дима, известный как Moroh, — уникальный программист, чья клавиатура словно заключила контракт с хаосом. Его подход к программированию можно сравнить с созданием произведения искусства: сначала он добавляет немного магии, потом вбрасывает баг, а в конце запечатывает всё в главный метод с названием WTFIsThis(). Особенности:Его проекты всегда сопровождаются эпическими комментариями вроде: «Не трогай, а то сломается, но если не тронешь, тоже сломается».
+Может одновременно решать проблемы, смотреть аниме и объяснять другу, почему код на Kotlin лучше, чем на всём остальном.
+Каждый его рабочий день начинается с ритуала: чашка чая, глубокий вдох и танец со словами: «Окей, сегодня точно без багов!»
+Легенды:
+
+Однажды он написал такую сложную игровую механику, что её пришлось вырезать, потому что тестировщики посчитали, что игра пошла против них.
+Его ноутбук на грани поломки из-за того, что работает без отдыха, но Дима убеждает его словами: «Ещё один билд, и ты свободен».
+Говорят, что в его голове есть идеальная идея для игры, но каждый раз, когда он начинает её реализовывать, Вселенная добавляет ещё одну фичу.
+Философия:
+«Код — это не просто строки. Это строки, в которых я оставляю частичку себя. А если это баг, то это для красоты».
+
+Прозвище в команде: Маг чёрного Kotlin-а
+«Морох» — это не просто имя. Это бренд, стиль жизни и постоянная борьба с вёрсткой, которая решила взять отпуск."/>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>
